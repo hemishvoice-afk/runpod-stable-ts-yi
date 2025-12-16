@@ -27,3 +27,6 @@ wheels/
 # Models (just in case)
 *.pt
 *.bin
+
+# Local scripts
+verify_locally.py
