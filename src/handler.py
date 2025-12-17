@@ -6,7 +6,7 @@ import tempfile
 import torch
 
 # Load model globally for warm starts
-MODEL_ID = "ivrit-ai/yi-whisper-large-v3-turbo-ct2"
+MODEL_ID = "ivrit-ai/yi-whisper-large-v3-ct2"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 print(f"Loading model {MODEL_ID} on {DEVICE}...")
